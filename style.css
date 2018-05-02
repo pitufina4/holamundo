@@ -1,0 +1,40 @@
+h1 {
+    color:blue;
+    background-color:yellow;
+
+}
+/* Seleccion por id */
+
+#tres{
+    color: green;
+}
+#cuatro{
+    font-size:larger;
+}
+/* Seleccion por clase */
+.cabecera {
+    color:red;
+}
+.destacado{
+    font-weight:bold;
+}
+
+
+
+header >#Imagen2{
+    margin-left: 30px;
+}
+.container > .row > .col:first-child {
+    background-color: yellow;
+}
+.container > .row > .col:nth-child(2) {
+    font-size:20px;
+}
+.container > .row > .col:last-child {
+    color: darkgrey;
+    text-align: center;
+    background-color: lightblue;  
+}
+.container > .row:nth-child(2) img {
+    padding: 10px;
+}
